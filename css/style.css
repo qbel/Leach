@@ -1,0 +1,80 @@
+#next{
+    background-image: url('../img/vector.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 400px; */
+    position: relative;
+    text-align: center;
+}
+#letter{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    color:#000000;
+    line-height: 35px;
+}
+#design{
+ 
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+text-transform: capitalize;
+
+color: #000000;
+}
+#is{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+#we{
+
+    font-family: 'Poppins', sans-serif;
+        font-style: normal;
+font-weight: bold;
+font-size: 46px;
+line-height: 72px;
+text-transform: capitalize;
+}
+#why{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+text-transform: capitalize;
+}
+#the{
+    font-family: Lato;
+font-style: normal;
+
+/* font-weight: bold; */
+font-size: 20px;
+/* line-height: 50px; */
+/* or 179% */
+}
+#victor{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 50px;
+/* identical to box height, or 179% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+@media only screen and ( max-width: 1024px ){
+
+}
+@media only screen and ( max-width: 667px ){
+
+}
+@media only screen and ( max-width: 640px ){
+
+}
