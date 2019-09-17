@@ -16,7 +16,7 @@
 }
 #design{
  
-    font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -95,6 +95,52 @@ text-transform: capitalize;
 color: #7A37D5;
 text-align: center;
 }
+#find{
+    font-family: Lato;
+font-style: normal;
+/* font-weight: bold; */
+/* font-size: 28px; */
+line-height: 25px;
+/* or 125% */
+
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.7);
+}
+#get{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+/* font-size: 30px; */
+line-height: 25px;
+/* or 117% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #7A37D5;
+}
+#follow{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+/* font-size: 30px; */
+line-height: 25px;
+/* identical to box height, or 117% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #7A37D5;
+}
+#not{
+    margin-top:180px;
+}
+
+
+
+
+
 
 @media only screen and ( max-width: 1024px ){
     #we{
@@ -105,6 +151,10 @@ text-align: center;
     font-size: 30px;
     line-height: 50px;
     text-transform: capitalize;
+    }
+     #not{
+        margin-top:70px;
+        text-align: justify;
     }
 }
 @media only screen and ( max-width: 667px ){
@@ -130,6 +180,10 @@ text-align: center;
             
             color: rgba(0, 0, 0, 0.6);
         }
+        #not{
+            margin-top:50px;
+            text-align: justify;
+        }
     }
 @media only screen and ( max-width: 640px ){
     #we{
@@ -153,5 +207,15 @@ text-align: center;
         text-transform: capitalize;
         
         color: rgba(0, 0, 0, 0.6);
+    }
+    #middle{
+        text-align: center;
+    }
+    #pic{
+        text-align: center;
+    }
+    #not{
+        margin-top:30px;
+        text-align: center;
     }
 }
